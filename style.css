@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(248, 229, 61);
+}
+
+#links-uteis {
+  display: flex;
+  background-color: rgb(63, 63, 63);
+  height: 25px;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  padding: 2px 10px;
+  width: 250px;
+  justify-content: space-around;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  padding: 2px 10px;
+  width: 250px;
+  justify-content: space-around;
+}
+
+.social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* fim do header inicial */
+
+#banner {
+  display: flex;
+  height: 300px;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  width: 500px;
+  padding: 100px;
+}
+
+.banner-text h1 {
+  font-size: 35px;
+}
+
+#main-items-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 100vw;
+  background-color: #000;
+}
+#main-items-menu h1 {
+  color: #fff;
+  font-size: 70px;
+  margin: 0;
+}
+
+.items {
+  display: flex;
+}
+
+.items a {
+  text-decoration: none;
+  color: #fff;
+  padding: 14px;
+}
+/* fim do menu*/
+
+.menu-principal-brands {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+}
+
+.brands-title {
+  display: flex;
+  background-color: #000;
+  width: 30vw;
+  justify-content: center;
+}
+
+.brands-title h1 {
+  color: #fff;
+}
+
+.brands-menu {
+  border: 1px solid #000;
+  width: 80vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.brands-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
