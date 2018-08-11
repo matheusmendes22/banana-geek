@@ -8,6 +8,7 @@ body {
   display: flex;
   background-color: rgb(63, 63, 63);
   height: 25px;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -35,12 +36,29 @@ body {
   text-decoration: none;
 }
 
+/*tratamento de imagens*/
+
+.mega-man{
+  position: absolute;
+  transform: translateX(615%) translateY(-90%);
+}
+
+.chun-li{
+  position: absolute;
+  transform: translateX(372%) translateY(-5%);
+}
+
+.pac-man{
+  position: absolute;
+  transform:translateY(120%) translateX(60%);
+}
+
 /* fim do header inicial */
 
 #banner {
   display: flex;
   height: 300px;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -60,7 +78,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: 300px;
-  width: 100vw;
+  width: 100%;
   background-color: #000;
 }
 #main-items-menu h1 {
@@ -120,26 +138,29 @@ body {
   display: flex;
   margin-top: 30px;
   background-color: #fff;
-  height: 260px;
-}
-
-.text-discount {
-  display: flex;
-  flex-direction: column;
-  width: 250px;
-  /* border: 1px solid red; */
-}
-
-.discount-section p {
-  font-size: 20px;
+  height: 265px;
+  width: 100%;
+  justify-content: space-between;  
 }
 
 .discount-section img {
   width: 500px;
 }
 
+.text-discount {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-right: 10em;
+  align-items: center;
+}
+
+.discount-section p {
+  font-size: 20px;
+}
+
 .uppercase-number {
-  font-size: 90px;
+  font-size: 100px;
 }
 
 .desconto {
@@ -148,9 +169,54 @@ body {
 
 .background-button {
   background-color: rgb(31, 30, 30);
-  color: rgb(255, 193, 21);
+  color: rgb(248, 229, 61);
   font-size: 18px;
-  width: 180px;
+  width: 250px;
   padding: 8px;
   border-radius: 5px;
+}
+
+.white{
+  color: #fff;
+}
+
+.social-medias{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.promo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.social-text{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.social-text h1{
+  margin: 0;
+}
+
+.social-buttons{
+  display: flex;
+}
+
+.social-buttons a{
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.green{
+  background-color: #39b54a;
+  padding: 2px;
+  color: #000;
+  font-weight: bold;
 }
