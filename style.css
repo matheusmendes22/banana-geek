@@ -1,3 +1,17 @@
+@font-face{
+  font-family: "Quantico-Bold";
+  font-weight: bold;
+  src: url('fonts.css/Quantico-Bold.otf') format('opentype');
+}
+@font-face{
+  font-family: "Quantico-Regular";
+  src: url('fonts.css/Quantico-Regular.otf') format('opentype');
+}
+@font-face{
+  font-family: "Quantico-BoldItalic";
+  src: url('fonts.css/Quantico-BoldItalic.otf') format('opentype');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +20,7 @@ body {
 
 #links-uteis {
   display: flex;
-  background-color: rgb(63, 63, 63);
+  background-color: rgb(37 , 37, 37);
   height: 25px;
   width: 100%;
   justify-content: space-between;
@@ -22,6 +36,12 @@ body {
 .links a {
   color: #fff;
   text-decoration: none;
+  font-family: Quantico-Bold;
+
+}
+
+.links a:hover{
+  color: rgb(248, 229, 61);
 }
 
 .social {
@@ -34,6 +54,11 @@ body {
 .social a {
   color: #fff;
   text-decoration: none;
+  font-family: 'Quantico-Bold';
+}
+
+.social a:hover{
+  color: rgb(248, 229, 61);
 }
 
 /*tratamento de imagens*/
@@ -50,7 +75,13 @@ body {
 
 .pac-man{
   position: absolute;
-  transform:translateY(120%) translateX(60%);
+  transform:translateY(155%) translateX(60%);
+}
+
+.ryu{
+  position: absolute;
+  transform: translateX(50%) translateY(-18%);
+  height: 450px;
 }
 
 /* fim do header inicial */
@@ -70,6 +101,7 @@ body {
 
 .banner-text h1 {
   font-size: 35px;
+  font-family: Quantico-Bold;
 }
 
 #main-items-menu {
@@ -85,7 +117,9 @@ body {
   color: #fff;
   font-size: 70px;
   margin: 0;
+  font-family: Quantico-Regular;
 }
+
 
 .items {
   display: flex;
@@ -95,6 +129,11 @@ body {
   text-decoration: none;
   color: #fff;
   padding: 14px;
+  font-family: Quantico-Regular;
+}
+
+.items a:hover{
+  text-decoration: underline;
 }
 /* fim do menu*/
 
@@ -106,6 +145,8 @@ body {
 }
 
 .brands-title {
+  margin-top: 50px;
+
   display: flex;
   background-color: #000;
   width: 30vw;
@@ -115,6 +156,7 @@ body {
 .brands-title h1 {
   color: #fff;
   text-align: center;
+  font-family: Quantico-Regular;
 }
 
 .brands-menu {
@@ -130,17 +172,24 @@ body {
   text-decoration: none;
   color: #000;
   font-weight: bold;
+  font-size: 19px;
+  font-family: Quantico-Regular;
 }
+ 
+.brands-menu a:hover{
+  text-decoration: underline;
+  }
+
 
 /* fim do menu marcas */
 
 .discount-section {
   display: flex;
-  margin-top: 30px;
+  margin-top: 100px;
   background-color: #fff;
-  height: 265px;
-  width: 100%;
+  height: 285px;
   justify-content: space-between;  
+  flex-wrap: wrap;
 }
 
 .discount-section img {
@@ -150,21 +199,31 @@ body {
 .text-discount {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
   margin-right: 10em;
   align-items: center;
 }
 
 .discount-section p {
-  font-size: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-size: 30px;
+  font-family: Quantico-Regular;
+  padding: 0;
+  margin: 0;
 }
 
 .uppercase-number {
   font-size: 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .desconto {
-  font-size: 23px;
+  font-size: 33px;
 }
 
 .background-button {
@@ -174,11 +233,14 @@ body {
   width: 250px;
   padding: 8px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .white{
   color: #fff;
 }
+
+/* fim do banner de desconto */
 
 .social-medias{
   height: 200px;
@@ -189,18 +251,28 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding-left: 150px;
 }
 
 .social-text{
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column; 
+  width: 430px;
+  height: 100px;
 }
 
 .social-text h1{
   margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-family: Quantico-Bold;
+}
+
+.social-text p{
+  font-family: Quantico-Bold;
+  padding: 0;
+  font-size: 20px;
 }
 
 .social-buttons{
@@ -209,9 +281,10 @@ body {
 
 .social-buttons a{
   padding: 10px;
-  margin: 5px;
+  font-family: Quantico-Bold;
+  margin: 7px;
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 .green{
@@ -219,4 +292,70 @@ body {
   padding: 2px;
   color: #000;
   font-weight: bold;
+}
+
+#sizing{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border: none;
+}
+
+.products-menu{
+  display: flex;
+  flex-wrap: wrap;
+  width: 670px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.product-box{
+  width: 200px;
+  border: none;
+  height: 300px;
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+  margin-right: 10px;
+  margin-bottom:10px; 
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.product-box:hover{
+width: 196px;
+height: 296px;
+}
+
+.product-box h1{
+  text-align: center;
+  font-family: Quantico-Regular;
+  font-size: 18px;
+}
+
+.product-button{
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background-color: #39b54a;
+  justify-content: center;
+  border-radius: 3px;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.product-box:hover{
+  border: 3px solid #39b54a;
+  border-radius: 3px;
+  transition: linear 0.1s ;
+}
+
+footer{
+  background-color: rgb(37, 37, 37);
+  height: 25px;
+  width: 100%;
 }
