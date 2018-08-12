@@ -23,7 +23,7 @@ body {
 .links a {
   color: #fff;
   text-decoration: none;
-  font-family: Quantico-Bold;
+  font-family: Quantico-BoldItalic;
   
 }
 
@@ -41,7 +41,7 @@ body {
 .social a {
   color: #fff;
   text-decoration: none;
-  font-family: 'Quantico-Bold';
+  font-family: 'Quantico-BoldItalic';
 }
 
 .social a:hover{
