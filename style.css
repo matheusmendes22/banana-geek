@@ -537,6 +537,7 @@ footer{
     justify-content: center;
   }
   .links{
+    width: 100%;
     justify-content: space-between;
   }
   .banner-text{
