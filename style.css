@@ -287,6 +287,7 @@ body {
   margin-bottom:10px; 
   background-color: #fff;
   border-radius: 3px;
+  
 }
 
 .product-box:hover{
@@ -310,6 +311,10 @@ body {
   align-items: center;
   color: #fff;
   cursor: pointer;
+}
+
+.text-button {
+  font-family: Quantico-Regular;
 }
 
 .product-box:hover{
