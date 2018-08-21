@@ -1,0 +1,20 @@
+#banner {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-text {
+    width: 500px;
+    padding: 100px;
+
+    h1 {
+        font-size: 35px;
+        font-family: $primary-font-bold;
+      }
+
+  }
+  
+  

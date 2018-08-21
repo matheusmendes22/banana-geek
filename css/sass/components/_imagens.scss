@@ -1,0 +1,26 @@
+
+.mega-man{
+    position: absolute;
+    transform: translateX(615%) translateY(-90%);
+  }
+  
+  .chun-li{
+    position: absolute;
+    transform: translateX(372%) translateY(-5%);
+  }
+  
+  .pac-man{
+    position: absolute;
+    transform:translateY(155%) translateX(60%);
+  }
+  
+  .ryu{
+    position: absolute;
+    transform: translateX(50%) translateY(-18%);
+    height: 450px;
+
+    @media(max-width:1300px){
+        transform: translateX(5%)translateY(-18%);
+        height: 350px;
+    }
+  }

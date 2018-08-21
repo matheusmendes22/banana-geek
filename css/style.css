@@ -1,0 +1,270 @@
+
+
+/* fim do header inicial */
+
+
+
+/* fim do banner inicial */
+
+
+/* fim do menu*/
+
+
+/* fim do menu marcas */
+
+
+/* fim do banner de desconto */
+
+
+
+
+/*tratamento de imagens*/
+
+
+/* inicio da responsividade */
+
+@media(max-width:1300px){
+  .ryu{
+    transform: translateX(5%)translateY(-18%);
+    height: 350px;
+  }
+  .chun-li{
+    transform: translateX(262%) translateY(-5%);
+  }
+  .mega-man{
+    display: none;
+  }
+  .pac-man{
+    transform:translateX(15%) translateY(200%);
+    height: 300px;
+  }
+  
+  .discount-section {
+    height: 261px;
+  }
+  .text-discount{
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+  }
+  
+  .text-discount p{
+    font-size:25px; 
+  }
+  
+  .background-button{
+    height: 20px;
+    margin-bottom:2px; 
+  }
+  
+  .product-box{
+    width: 180px;
+  }
+  
+  .product-box:hover{
+    width: 176px;
+  }
+}
+
+@media(max-width:1030px){
+  .chun-li{
+    display: none;
+  }
+  .ryu{
+    display: none;
+  }
+  .pac-man{
+    display: none;
+  }
+  .discount-section img{
+    display: none;
+  }
+  .discount-section img{
+    display: none;
+  }
+  .discount-section{
+    background-color: #000;
+    justify-content:center;
+    padding-left: 170px;
+  }
+  .discount-section p{
+    color: #fff;
+  }
+}
+
+@media(max-width:700px){
+  .links a{
+    font-size: 15px;
+  }
+  .social a{
+    font-size: 15px;
+  }
+  .banner-text {
+    display: flex;
+    /* width: 200px; */
+    margin:0 ;
+  }
+  .banner-image{
+    /* margin-left: 150px; */
+    transform: translateX(20px);
+  }
+  .banner-text h1{
+    font-size: 30px;
+  }
+  
+  /* fim do responsivo banner principal */
+  #main-items-menu {
+    height: 150px;
+    margin-top: 10px;
+  }
+  #main-items-menu h1{
+    font-size: 40px;
+  }
+  
+  /* fim do responsivo menu principal */
+  
+  .brands-title {
+    margin-top: 50px;
+    display: flex;
+    background-color: #000;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .brands-title h1{
+    font-size: 20px;
+  }
+  
+  /* fim da responsividade do menu marcas */
+  
+  .discount-section img{
+    display: none;
+  }
+  .discount-section{
+    background-color: #000;
+    justify-content:center;
+    padding-left: 170px;
+  }
+  .discount-section p{
+    color: #fff;
+  }
+  
+  /* fim da responsividade do banner de desconto */
+  
+  .promo{
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .social-text{
+    align-items: center;
+  }
+  
+  /* fim da responsividade da promoçao */
+  
+  .product-box{
+    height: 100px;
+  }
+  .product-box:hover{
+    height: 100px;
+  }
+   .product-box :nth-child(1)  {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+  } 
+
+  .product-button:nth-child(1){
+    transform: translateX(-50px);
+    flex-wrap: wrap;
+  }
+  .product-box img{
+    height: 60px;
+    width: 50px;
+  }
+
+  .ryu{
+    display: none;
+  }
+  .pac-man{
+    display: none;
+  }
+  .chun-li{
+    display: none;
+  }
+  
+}
+@media(max-width:470px){
+  .social{
+    display: none;
+  }
+  .links a{
+    font-size: 14px;
+  }
+  #links-uteis{
+    justify-content: center;
+  }
+  .links{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .banner-text{
+    display: none;
+  }
+  #main-items-menu{
+    width: 100%;
+    height: 100px;
+  }
+  #main-items-menu h1{
+   font-size: 22px;
+  }
+   .items a{
+    font-size: 15px;
+    padding: 5px;
+  }
+  .items{
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .brands-title{
+    width: 150px;
+    padding: 4px;
+  }
+  .brands-menu{
+    width: 100vw;
+  }
+  .brands-menu a{
+    font-size: 15px;
+    margin: 0;
+  }
+  .social-buttons{
+    width: 100px;
+    justify-content: center;
+  }
+  
+  
+}
+
+/* importação das fontes */
+
+@font-face{
+  font-family: "Quantico-Bold";
+  font-weight: bold;
+  src: url('fonts.css/Quantico-Bold.otf') format('opentype');
+}
+@font-face{
+  font-family: "Quantico-Regular";
+  src: url('fonts.css/Quantico-Regular.otf') format('opentype');
+}
+@font-face{
+  font-family: "Quantico-BoldItalic";
+  src: url('fonts.css/Quantico-BoldItalic.otf') format('opentype');
+}
+
